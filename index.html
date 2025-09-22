@@ -614,13 +614,13 @@
             }
 
             this.disabled = true;
-            this.innerHTML = '⏳ Classifying...';
+            this.innerHTML = 'Classifying...';
 
             // Simulate model inference delay
             setTimeout(() => {
                 performClassification();
                 this.disabled = false;
-                this.innerHTML = '🚀 Classify Image';
+                this.innerHTML = 'Classify Image';
             }, 2000);
         });
 
