@@ -408,38 +408,28 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>🖼️ CINIC-10 Image Classifier</h1>
+            <h1>CINIC-10 Image Classifier</h1>
             <p>Deep Learning Models for Tool Image Classification</p>
         </div>
 
         <div class="content">
             <div class="model-section">
-                <h3>📊 Pre-trained Models (Select Architecture)</h3>
+                <h3>Pre-trained Models (Select Architecture)</h3>
                 <div class="model-grid">
                     <div class="model-card active" data-model="cnn">
-                        <h4>🔗 Convolutional Neural Network</h4>
-                        <div class="accuracy">64.65%</div>
-                        <div class="description">
-                            2 conv layers + 2 FC layers<br>
-                            Optimized for spatial features
-                        </div>
+                        <h4>Convolutional Neural Network</h4>
                     </div>
                     <div class="model-card" data-model="dfn">
-                        <h4>🧠 Deep Feedforward Network</h4>
-                        <div class="accuracy">9.92%</div>
-                        <div class="description">
-                            3 hidden layers (1024, 512, 256)<br>
-                            Multi-layer perceptron
-                        </div>
+                        <h4>Deep Feedforward Network</h4>
                     </div>
                 </div>
                 <div class="model-status">
-                    ✅ Models loaded from .pth files and ready for inference
+                    Models loaded from .pth files and ready for inference
                 </div>
             </div>
 
             <div class="upload-section">
-                <h3>📤 Upload Image for Classification</h3>
+                <h3>Upload Image for Classification</h3>
                 <div class="error-message" id="error-message"></div>
                 
                 <div class="drop-zone" id="drop-zone">
@@ -476,11 +466,11 @@
             </div>
 
             <button class="classify-btn" id="classify-btn" disabled>
-                🚀 Classify Image
+                Classify Image
             </button>
 
             <div class="results" id="results">
-                <h3>📈 Classification Results</h3>
+                <h3>Classification Results</h3>
                 <div id="predictions"></div>
             </div>
         </div>
